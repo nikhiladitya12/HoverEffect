@@ -1,0 +1,106 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: "Gilroy";
+   box-sizing: border-box; 
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    width:100%;
+    height:100%;
+    background-color:#fff ;
+}
+#main nav{
+    display: flex;
+    height:20px;
+   width:100%;
+   background-color: transparent;
+
+}
+
+#nav h1{
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: 30px;
+    font-weight: 500px;
+    color: black;
+    padding:10px 20px;
+}
+#nav p{
+    position: absolute;
+    top:0;
+    right:25px;
+    color: black;
+    padding:9px;
+
+
+}
+#nav i{
+    color: black;
+    position: absolute;
+    top:0;
+    right:0;
+    padding:10px 20px;
+}
+
+
+#center{
+    width:45%;
+    height:65%;
+    background-image:url(https://images.unsplash.com/photo-1594534475808-b18fc33b045e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) ;
+    background-size: cover;
+    background-position:center ;
+    position:absolute;
+    top:50%;
+    left:65%;
+    transform: translate(-50%,-50%);
+}
+#center text{
+    
+width:30%;
+height:45%;
+position: absolute;
+t
+}
+#text h1{
+
+    font-size:30px ;
+    font-weight: 400;
+    color: #fff;;
+    margin-bottom:20px ;
+
+}
+#text p{
+    font-size: 12px;
+    font-weight: 300px;
+    color:#FFF;
+}
+
+#btm{
+    display: flex;
+    width:100%;
+    height:20px;
+
+}
+#btm lbtm{
+    position: absolute;
+    top: 100%;
+    left:0%;
+    height:30px;
+    width:100%;
+    background-color: transparent;
+}
+
+#lbtm a{
+
+    position: absolute;
+    bottom: 0%;
+    left:0;
+    padding-left: 20px;
+}
+

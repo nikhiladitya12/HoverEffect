@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+
+}
+
+#box{
+width:20%;
+height:200px;
+background-image:url(https://c4.wallpaperflare.com/wallpaper/469/122/556/mission-impossible-mission-impossible-fallout-ethan-hunt-tom-cruise-wallpaper-preview.jpg) ;
+background-size:cover ;
+position:absolute;
+left:0;
+top:0;
+animation-name: Nikhil;
+animation-duration: 10s;
+animation-delay:5s ;
+animation-fill-mode: forward;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction:normal
+}
+@keyframes Nikhil{
+    0%{
+        left:0;
+        top:0;
+    }
+    20%{
+        left:50%;
+        top:0;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/329/104/905/mission-impossible-rogue-nation-2015-ethan-hunt-wallpaper-preview.jpg );
+        background-size: cover;
+    }
+    33%{
+        top:0;
+        left:80%;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/931/781/108/tom-cruise-tom-cruise-ethan-hunt-ethan-hunt-wallpaper-preview.jpg);
+background-size: cover;
+    }
+    60%{
+        top:50%;
+        left:80%;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/48/466/322/ethan-hunt-tom-cruise-4k-mission-impossible-fallout-wallpaper-preview.jpg);
+        background-size: cover;
+    }
+
+    75%{
+        top:70%;
+        left:80%;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/343/645/83/mission-impossible-fallout-mission-impossible-6-movies-4k-wallpaper-preview.jpg);
+        background-size: cover;
+    }
+    85%{
+        top:50%;
+        left:40%;
+        background-image:url(https://c4.wallpaperflare.com/wallpaper/890/526/534/mission-impossible-fallout-mission-impossible-6-movies-2018-movies-wallpaper-preview.jpg) ;
+        background-size: cover;
+    }
+
+    100%{
+        top:0;
+        left:0;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/329/104/905/mission-impossible-rogue-nation-2015-ethan-hunt-wallpaper-preview.jpg );
+        background-size: cover;
+    }
+}
+
